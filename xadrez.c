@@ -10,7 +10,7 @@
 // Função com Loop Aninhado - Bispo
 void movimentarBispo() {
     printf("--------------------------\n");
-    printf("### Movimentação do Bispo (5 Casas Diagonal Superior Direita) ###\n");
+    printf("**** Movimentação do Bispo (5 Casas Diagonal Superior Direita) ****\n");
     printf("--------------------------\n");
 
     for (int i = 0; i < MOV_BISPO; i++) {
@@ -26,7 +26,7 @@ void movimentarBispo() {
 // Função recursiva - Torre
 void movimentarTorre(int movimentos) {
     if (movimentos == MOV_TORRE) {
-        printf("### Movimentação da Torre (5 casas para Direita) ###\n");
+        printf("**** Movimentação da Torre (5 casas para Direita) ****\n");
         printf("--------------------------\n");
     }
 
@@ -42,7 +42,7 @@ void movimentarTorre(int movimentos) {
 // Função recursiva - Rainha
 void movimentarRainha(int movimentos) {
     if (movimentos == MOV_RAINHA) {
-        printf("### Movimentação da Rainha (8 casas para Esquerda) ###\n");
+        printf("**** Movimentação da Rainha (8 casas para Esquerda) ****\n");
         printf("--------------------------\n");
     }
 
@@ -57,7 +57,7 @@ void movimentarRainha(int movimentos) {
 
 // Função com Condições Múltiplas - Cavalo
 void movimentarCavalo() {
-    printf("### Movimentação do Cavalo (1 Movimento em L - Cima e Direita) ###\n");
+    printf("****Movimentação do Cavalo (1 Movimento em L - Cima e Direita) ****\n");
     printf("--------------------------\n");
 
     int passosCima = 0;
@@ -83,7 +83,7 @@ void movimentarCavalo() {
     }
 
     printf("\n--------------------------\n");
-    printf("### Fim de Jogo ###\n");
+    printf("**** Fim de Jogo ****\n");
     printf("--------------------------\n");
 }
 
